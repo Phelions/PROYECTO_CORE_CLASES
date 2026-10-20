@@ -4,7 +4,7 @@ from dotenv import load_dotenv
   
 load_dotenv()
 
-""" Historico 
+""" Historico -- sin manejo de excepciones y validación de módulos
 def obtener_dato_de_prueba(pregunta):
     api_key = os.getenv("GEMINI_API_KEY")
     modelo = "gemini-3.8-flash"
